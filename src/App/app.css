@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Amazon Ember';
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://m.media-amazon.com/images/G/01/ADT/Smartwater/AmazonEmber_W_Rg.woff2)
+      format('woff2'),
+    url(https://m.media-amazon.com/images/G/01/ADT/Smartwater/AmazonEmber_W_Rg.woff)
+      format('woff');
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --fontSize: 16px;
+  --fontFamilyPrimary: 'Helvetica Neue', Helvetica, sans-serif;
+  --fontFamilyEmber: 'Amazon Ember', Arial, sans-serif;
+
+  --colorWhite: #ffffff;
+  --colorBlack: #000000;
+  --colorPrimary: #444444;
+  --colorSecondary: #f6f6f6;
+
+  --safe-area-inset-top: env(safe-area-inset-top);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+#ad-landing-page-wrap {
+  max-width: 100%;
+}
+
+#dacx-preview-warning-banner {
+  display: none;
+}
+
+.aui-done-button {
+  position: absolute;
+  height: 44px;
+  top: -44px;
+  right: 10px;
+  line-height: 44px;
+  font-size: 15px;
+  color: #fff;
+  transition: opacity 0.1s linear;
+  pointer-events: none;
+  opacity: 0;
+  font-family: var(--fontFamilyEmber);
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .aui-modal {
+    height: auto !important;
+  }
+}
+
+.aui-modal-open .aui-done-button {
+  transition: opacity 0.25s linear 0.5s;
+  opacity: 1;
+}
+
+.a-button.a-button-addToCart {
+  height: auto;
+}
+
+@media only screen and (max-width: 920px) {
+  .aui-modal-background .aui-close-button {
+    right: 32px !important;
+  }
+}

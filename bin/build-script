@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# All peru npm build-systems should call peru-npm configure-npm to ensure npm
+# uses the correct registry.
+peru-npm configure-npm
+
+# Package builder will always run `brazil-build release` so the release task should
+# run all tests and produce all artifacts.
+# The `brazil-build` command without any arguments will run release but skip test and lint
+# to build quickly while developing locally.
+if [ "${1:-release}" = "release" ]; then
+
+  # Update any workspace or versionset packages that may have changed.
+  # This also installs dependencies.
+  peru-npm update-built-from-source-packages
+
+  # Only run validation steps for `brazil-build release`, not `brazil-build`.
+  if [ "${1:-x}" = "release" ]; then
+    echo "> lint"
+    npm run -s lint
+    echo "> test"
+    npm run -s test
+  fi
+
+  # Build the package
+  echo "> build"
+  npm run -s build
+
+  # Remove resolved key from package-lock. all build scripts should include this.
+  peru-npm clean-package-lock
+else
+  # As a convenience, `brazil-build info react` calls `npm info react`. This
+  # isn't really nessesary because a developer can use `npm` directly after
+  # calling configure-npm.
+  exec npm "$@"
+fi

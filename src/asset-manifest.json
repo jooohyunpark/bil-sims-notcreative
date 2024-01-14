@@ -1,0 +1,210 @@
+{
+  "cursor": {
+    "path": "static/image/cursor.png",
+    "physicalId": "11dQzTWvoUL"
+  },
+  "prelaunch_hero_video_desktop": {
+    "path": "static/video/prelaunch_hero_video_desktop.mp4",
+    "physicalId": "B1jfcQnj4FL"
+  },
+  "prelaunch_hero_video_mobile": {
+    "path": "static/video/prelaunch_hero_video_mobile.mp4",
+    "physicalId": "C1U2TiP6PDL"
+  },
+  "launch_hero_video_desktop": {
+    "path": "static/video/launch_hero_video_desktop.mp4",
+    "physicalId": "D1NbyFNou2L"
+  },
+  "launch_hero_video_mobile": {
+    "path": "static/video/launch_hero_video_mobile.mp4",
+    "physicalId": "D1obGcGDjGL"
+  },
+  "trailer_desktop": {
+    "path": "static/video/trailer_desktop.mp4",
+    "physicalId": "F1n0onIvLmL"
+  },
+  "trailer_mobile": {
+    "path": "static/video/trailer_mobile.mp4",
+    "physicalId": "C1d4kESmAyL"
+  },
+  "echo_show_desktop": {
+    "path": "static/image/echo_show_desktop.png",
+    "physicalId": "71+gIgkzKsL"
+  },
+  "echo_show_mobile": {
+    "path": "static/image/echo_show_mobile.png",
+    "physicalId": "61hY4bJsHYL"
+  },
+  "sticker_1": {
+    "path": "static/image/stickers/1.png",
+    "physicalId": "71e8gV1n+eL"
+  },
+  "sticker_2": {
+    "path": "static/image/stickers/2.png",
+    "physicalId": "71vFqNNr8+L"
+  },
+  "sticker_3": {
+    "path": "static/image/stickers/3.png",
+    "physicalId": "61-duxBCv-L"
+  },
+  "sticker_4": {
+    "path": "static/image/stickers/4.png",
+    "physicalId": "71ht8bWNViL"
+  },
+  "sticker_5": {
+    "path": "static/image/stickers/5.png",
+    "physicalId": "710VrLqZY6L"
+  },
+  "sticker_6": {
+    "path": "static/image/stickers/6.png",
+    "physicalId": "71ygRIi63jL"
+  },
+  "sticker_7": {
+    "path": "static/image/stickers/7.png",
+    "physicalId": "71p7yxmppTL"
+  },
+  "sticker_8": {
+    "path": "static/image/stickers/8.png",
+    "physicalId": "7148abO5GQL"
+  },
+  "sticker_9": {
+    "path": "static/image/stickers/9.png",
+    "physicalId": "71P4z6RARyL"
+  },
+  "sticker_10": {
+    "path": "static/image/stickers/10.png",
+    "physicalId": "711yH5-9-GL"
+  },
+  "sticker_11": {
+    "path": "static/image/stickers/11.png",
+    "physicalId": "71+C+wIqEdL"
+  },
+  "sticker_12": {
+    "path": "static/image/stickers/12.png",
+    "physicalId": "71GWbPtRarL"
+  },
+  "sticker_13": {
+    "path": "static/image/stickers/13.png",
+    "physicalId": "61DUQnV5+oL"
+  },
+  "sticker_14": {
+    "path": "static/image/stickers/14.png",
+    "physicalId": "71b0+bkwlAL"
+  },
+  "sticker_15": {
+    "path": "static/image/stickers/15.png",
+    "physicalId": "71hNZRpS7tL"
+  },
+  "sticker_16": {
+    "path": "static/image/stickers/16.png",
+    "physicalId": "71P6KpoxudL"
+  },
+  "sticker_17": {
+    "path": "static/image/stickers/17.png",
+    "physicalId": "713RclaebQL"
+  },
+  "creative_1_desktop": {
+    "path": "static/image/creatives/creative_1_desktop.jpg",
+    "physicalId": "91mlo0QYyAL"
+  },
+  "creative_2_desktop": {
+    "path": "static/image/creatives/creative_2_desktop.jpg",
+    "physicalId": "A15Ukw4QbbL"
+  },
+  "creative_3_desktop": {
+    "path": "static/image/creatives/creative_3_desktop.jpg",
+    "physicalId": "91haR4PWIRL"
+  },
+  "creative_4_desktop": {
+    "path": "static/image/creatives/creative_4_desktop.jpg",
+    "physicalId": "91Wvc2wrxoL"
+  },
+  "creative_1_mobile": {
+    "path": "static/image/creatives/creative_1_mobile.jpg",
+    "physicalId": "81+oeBHzI9L"
+  },
+  "creative_2_mobile": {
+    "path": "static/image/creatives/creative_2_mobile.jpg",
+    "physicalId": "81qmqL89RoL"
+  },
+  "creative_3_mobile": {
+    "path": "static/image/creatives/creative_3_mobile.jpg",
+    "physicalId": "8166F1zfuVL"
+  },
+  "creative_4_mobile": {
+    "path": "static/image/creatives/creative_4_mobile.jpg",
+    "physicalId": "81+pfJVDmUL"
+  },
+  "creative_1_char_desktop": {
+    "path": "static/image/creatives/creative_1_char_desktop.jpg",
+    "physicalId": "A1euK70MweL"
+  },
+  "creative_2_char_desktop": {
+    "path": "static/image/creatives/creative_2_char_desktop.jpg",
+    "physicalId": "A1uMqJnoi7L"
+  },
+  "creative_3_char_desktop": {
+    "path": "static/image/creatives/creative_3_char_desktop.jpg",
+    "physicalId": "91eW3t2UwaL"
+  },
+  "creative_4_char_desktop": {
+    "path": "static/image/creatives/creative_4_char_desktop.jpg",
+    "physicalId": "81+PKkWHwTL"
+  },
+  "creative_1_char_mobile": {
+    "path": "static/image/creatives/creative_1_char_mobile.jpg",
+    "physicalId": "81n6NiSuQjL"
+  },
+  "creative_2_char_mobile": {
+    "path": "static/image/creatives/creative_2_char_mobile.jpg",
+    "physicalId": "81PdfKAIdwL"
+  },
+  "creative_3_char_mobile": {
+    "path": "static/image/creatives/creative_3_char_mobile.jpg",
+    "physicalId": "818dYXn2ebL"
+  },
+  "creative_4_char_mobile": {
+    "path": "static/image/creatives/creative_4_char_mobile.jpg",
+    "physicalId": "71hyvmfLHcL"
+  },
+  "episode_1_poster": {
+    "path": "static/image/episodes/poster_1.jpg",
+    "physicalId": "91wy8MWSMmL"
+  },
+  "episode_1_video": {
+    "path": "static/video/episodes/1.mp4",
+    "physicalId": "G1fMKK3MrlL"
+  },
+  "episode_2_video": {
+    "path": "static/video/episodes/2.mp4",
+    "physicalId": "F1yD1U2AukL"
+  },
+  "episode_2_poster": {
+    "path": "static/image/episodes/poster_2.jpg",
+    "physicalId": "91JoJAB-GzL"
+  },
+  "episode_3_video": {
+    "path": "static/video/episodes/3.mp4",
+    "physicalId": "G1JYeTqp9rL"
+  },
+  "episode_3_poster": {
+    "path": "static/image/episodes/poster_3.jpg",
+    "physicalId": "91qy76rmKvL"
+  },
+  "product_gallery_featured_1": {
+    "path": "static/image/productGallery/featured_1.jpg",
+    "physicalId": "71st8xQKKGL"
+  },
+  "product_gallery_featured_2": {
+    "path": "static/image/productGallery/featured_2.jpg",
+    "physicalId": "81qal2zrlbL"
+  },
+  "product_gallery_featured_3": {
+    "path": "static/image/productGallery/featured_3.jpg",
+    "physicalId": "71h+DWPHH1L"
+  },
+  "product_gallery_featured_4": {
+    "path": "static/image/productGallery/featured_4.jpg",
+    "physicalId": "81gQs7l9Y8L"
+  }
+}

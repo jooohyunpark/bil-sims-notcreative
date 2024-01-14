@@ -1,0 +1,39 @@
+<% if (escape) { %>
+<!-- Tag generation function -->
+<script
+nonce="{{nonceToken}}"
+crossorigin="anonymous"
+type="text/javascript"
+src="https://m.media-amazon.com/images/I/01Nsaa7DmML.js"
+></script>
+<!-- Escape -->
+<script
+type="text/javascript"
+nonce="{{nonceToken}}"
+crossorigin="anonymous"
+>
+parent.document.getElementById('<%= tileId %>')
+.append(
+createLink('<%= stylesheet %>'),
+createDiv('<%= customId %>'),
+createScript('<%= vendorsBundle %>'),
+createScript('<%= appBundle %>'),
+);
+</script>
+<%} else { %>
+<!-- Custom code output -->
+<link href="<%= stylesheet %>" rel="stylesheet" />
+<div id="<%= customId %>"></div>
+<script
+nonce="{{nonceToken}}"
+crossorigin="anonymous"
+type="text/javascript"
+src="<%= vendorsBundle %>"
+></script>
+<script
+nonce="{{nonceToken}}"
+crossorigin="anonymous"
+type="text/javascript"
+src="<%= appBundle %>"
+></script>
+<% } %>

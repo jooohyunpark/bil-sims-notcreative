@@ -1,0 +1,202 @@
+{
+  "resources": {
+    "theSims": "The Sims",
+    "notCreativeText": "Not Creative",
+    "nav": {
+      "notCreative": "{{Not}} Creative",
+      "episodes": "Episodes",
+      "creatives": "Creatives",
+      "shopThePacks": {
+        "mobile": "Shop packs",
+        "desktop": "Shop the packs"
+      },
+      "eaStoreButton": {
+        "url": "https://www.amazon.com/stores/page/9E332593-249F-4A7E-9242-A2BD56FF5622",
+        "text": "EA Store"
+      },
+      "playForFreeButton": {
+        "url": "https://www.ea.com/games/the-sims/the-sims-4/download",
+        "text": "Play for free*"
+      },
+      "notifyMe": {
+        "subscriptionListId": 65292115,
+        "subscriptionError": "Sorry, Try Again Later",
+        "unsubscribe": "Unsubscribe",
+        "subscribe": "Remind Me",
+        "subscriptions": "Manage Your Subscriptions",
+        "signIn": "Remind Me"
+      }
+    },
+    "hero": {
+      "promptPrelaunch": "Scroll to discover more",
+      "promptLaunch": "Scroll to watch full episodes",
+      "prelaunchVideo": {
+        "srcMobile": "prelaunch_hero_video_mobile",
+        "srcDesktop": "prelaunch_hero_video_desktop"
+      },
+      "launchVideo": {
+        "srcMobile": "launch_hero_video_mobile",
+        "srcDesktop": "launch_hero_video_desktop"
+      }
+    },
+    "countdown": {
+      "launchDate": "December 15, 2023 00:00:00",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds",
+      "eyebrow": "Inspiration loading...",
+      "description": "Click ‘Remind Me’ to get on the list and be the first to know when the new series inspired by The Sims™ drops Dec 15th. Or you can download The Sims™ 4 for free and spark something, now.",
+      "caption": "Spark Something with"
+    },
+    "episodes": {
+      "headline": "Join aspiring creative Amanda on a one-of-a-kind journey to find inspiration.",
+      "episodeData": [
+        {
+          "id": 1,
+          "shortTitle": "Episode 1",
+          "title": "EP.1 Find Your Perspective",
+          "description": "Amanda discovers the world can be a canvas for taste-making and curiosity with the help of interior designer Francesca Grace.",
+          "videoSrc": "episode_1_video",
+          "posterSrc": "episode_1_poster",
+          "length": "4:10",
+          "textTrackUrl": "https://m.media-amazon.com/images/G/01/BIL/Campaigns/SIMS-2023/episode-1-v7.vtt"
+        },
+        {
+          "id": 2,
+          "shortTitle": "Episode 2",
+          "title": "EP.2 Express Yourself",
+          "description": "Multidisciplinary artist Brielle Jenkins, master of self-adornment, takes Amanda through an exercise in self-expression—in and out of game.",
+          "videoSrc": "episode_2_video",
+          "posterSrc": "episode_2_poster",
+          "length": "4:16",
+          "textTrackUrl": "https://m.media-amazon.com/images/G/01/BIL/Campaigns/SIMS-2023/episode-2-v7.vtt"
+        },
+        {
+          "id": 3,
+          "shortTitle": "Episode 3",
+          "title": "EP.3 Embrace the Chaos",
+          "description": "When creation gets messy in the ceramics studio, Amanda embraces the imperfect process with multi-hyphenate musician Cale Tyson.",
+          "videoSrc": "episode_3_video",
+          "posterSrc": "episode_3_poster",
+          "length": "3:53",
+          "textTrackUrl": "https://m.media-amazon.com/images/G/01/BIL/Campaigns/SIMS-2023/episode-3-v7.vtt"
+        }
+      ]
+    },
+    "creatives": [
+      {
+        "name": "Amanda Gordon",
+        "title": "Aspiring\n Filmmaker",
+        "description": "Meet Amanda—a multi-hyphenate content creator who writes and directs short films and online videos. Constantly searching for what sparks her next endeavor, she’s finding originality and inspiration around every corner.",
+        "imgSrcDesktop": ["creative_1_desktop", "creative_1_char_desktop"],
+        "imgSrcMobile": ["creative_1_mobile", "creative_1_char_mobile"],
+        "shopPackButtonText": "Shop Amanda's favorite pack"
+      },
+      {
+        "name": "Francesca Grace",
+        "title": "Interior Designer",
+        "description": "A staging expert and mother of chickens (Oh hey, Pickle). When she’s not sourcing vintage furniture or reimagining spaces, Francesca is building virtual worlds in The Sims™ to explore new ideas and just have fun with off-the-wall thinking.",
+        "imgSrcDesktop": ["creative_2_desktop", "creative_2_char_desktop"],
+        "imgSrcMobile": ["creative_2_mobile", "creative_2_char_mobile"],
+        "shopPackButtonText": "Shop Francesca's favorite pack"
+      },
+      {
+        "name": "Brielle Jenkins",
+        "title": "Multidisciplinary Artist",
+        "description": "Femlord Brielle Jenkins is always pushing the boundaries of fashion by creating custom airbrush fits, one reworked garment at a time. From childhood until now, Brielle has been playing The Sims™ to spark creativity, mischief and the impossible.",
+        "imgSrcDesktop": ["creative_3_desktop", "creative_3_char_desktop"],
+        "imgSrcMobile": ["creative_3_mobile", "creative_3_char_mobile"],
+        "shopPackButtonText": "Shop Brielle's favorite pack"
+      },
+      {
+        "name": "Cale Tyson",
+        "title": "Musician",
+        "description": "Whether it’s writing a new song or playing with ceramics, Cale finds inspiration in everything he does. During the early part of his career, he used The Sims™ to imagine new worlds and discover hidden talents.",
+        "imgSrcDesktop": ["creative_4_desktop", "creative_4_char_desktop"],
+        "imgSrcMobile": ["creative_4_mobile", "creative_4_char_mobile"],
+        "shopPackButtonText": "Shop Cale's favorite pack"
+      }
+    ],
+    "animatingText": {
+      "mobile": [
+        "Find",
+        "{{sticker_1}}",
+        "{{break}}",
+        "{{sticker_2}}",
+        "your",
+        "{{break}}",
+        "{{sticker_3}}",
+        "spark",
+        "{{break}}",
+        "in-game",
+        "{{break}}",
+        "{{blank}}",
+        "{{sticker_4}}"
+      ],
+      "desktop": [
+        "Find",
+        "your",
+        "{{sticker_1}}",
+        "{{break}}",
+        "{{sticker_2}}",
+        "spark",
+        "{{break}}",
+        "{{sticker_3}}",
+        "in-game",
+        "{{sticker_4}}"
+      ]
+    },
+    "trailer": {
+      "srcMobile": "trailer_mobile",
+      "srcDesktop": "trailer_desktop"
+    },
+    "productGallery": {
+      "shopNow": true,
+      "headline": "Spark Something with these Packs",
+      "asins": {
+        "prelaunch": ["B07888WVKX", "B0CMZGS84M", "B07DFZRJ6G", "B0995Y2KQ4"],
+        "launch": ["B0CMZGS84M", "B07DFZRJ6G", "B07888WVKX", "B00TEC9XH6"]
+      },
+      "alexaHeadline": "Alexa, enable The Sims™ theme",
+      "alexaDescription": "Win the game of creativity with The Sims’ new Alexa theme! Get TS4 player tips, learn the Simlish phrase of the day, or find your spark with {{Not}} Creative inspired prompts.",
+      "getTheTheme": {
+        "text": "Get the theme",
+        "url": "https://www.amazon.com/dp/B0CLKVLG2G?ref&ref=cm_sw_em_r_as_dp_kDb7CWREnyTN6"
+      },
+      "featuredCarousel": [
+        {
+          "eyebrow": "City Living: Amanda’s fav",
+          "asin": "B01LX7O4IK",
+          "imageSrc": "product_gallery_featured_1"
+        },
+        {
+          "eyebrow": "Cottage Living: Francesca’s fav",
+          "asin": "B0995Y2KQ4",
+          "imageSrc": "product_gallery_featured_2"
+        },
+        {
+          "eyebrow": "Horse ranch: Brielle’s fav",
+          "asin": "B0CCT3JJGC",
+          "imageSrc": "product_gallery_featured_3"
+        },
+        {
+          "eyebrow": "Island Living: Cale’s fav",
+          "asin": "B07STVKMKM",
+          "imageSrc": "product_gallery_featured_4"
+        }
+      ],
+      "showMoreText": "Show more"
+    },
+    "disclaimer": "*Additional content requires separate purchase & all base game updates. Applicable platform account, internet connection, and EA account may be required. Age restrictions apply.",
+    "unsupportedVideoMessage": "Sorry, your browser doesn't support embedded videos.",
+    "ariaLabel": {
+      "play": "Play",
+      "mute": "Mute",
+      "open": "Open",
+      "close": "Close",
+      "next": "next"
+    },
+    "shopNowText": "Shop Now"
+  }
+}
